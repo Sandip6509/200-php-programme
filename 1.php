@@ -25,17 +25,17 @@
             </div>
         </form>
         <?php
-            if(isset($_POST['submit'])){
-                $number1 = $_POST['number1'];
-                $number2 = $_POST['number2'];
+        if (isset($_POST['submit'])) {
+            $number1 = $_POST['number1'];
+            $number2 = $_POST['number2'];
 
-                $add = $number1 + $number2;
-                $sub = $number1 - $number2;
+            $add = $number1 + $number2;
+            $sub = $number1 - $number2;
 
-                echo "Addition =".$add;
-                echo "<hr>";
-                echo "Subtraction =".$sub;
-            }
+            echo "Addition =" . $add;
+            echo "<hr>";
+            echo "Subtraction =" . $sub;
+        }
         ?>
     </div>
 </body>
